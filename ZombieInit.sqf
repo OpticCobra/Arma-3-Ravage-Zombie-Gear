@@ -1,3 +1,10 @@
+/*
+Made by OpticCobra
+if you are going to use this script in any of your scenarios please give me credit in the description.
+To use this script place down an ambient zombies module, once you have done that double click on it and go down to where it says "initEH" and paste this into the box:
+_zom = _this select 0; [_zom] execVM "ZombieInit.sqf";
+*/
+
 _zombie = _this select 0;
 sleep 0.5;
 
